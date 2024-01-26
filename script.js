@@ -21,6 +21,7 @@ $.ajax(settings).done(function (response) {
 	$("#top").text(artist)
 	
 	
+	
 	console.log(artist);
 });
 
