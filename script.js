@@ -19,9 +19,11 @@ const settings = {
 $.ajax(settings).done(function (response) {
 	let artist = response.albums[0].artists[0].name
 	$("#top").text(artist)
+
+	//let album = response.albums[1].
 	
 	
 	
-	console.log(artist);
+	console.log(response);
 });
 
