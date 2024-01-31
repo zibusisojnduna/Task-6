@@ -1,7 +1,7 @@
 body{
     
     font-family: Arial, Helvetica, sans-serif;
-    height: 100vh;
+    height: auto;
     width: 100vw;
     
     
@@ -190,7 +190,7 @@ li{
 }
 
 .tracks{
-  height: 70vh;
+  height: auto;
   width: 55vw;
   background-color:rgba(255, 166, 0, 0.178);
   border-radius: 20px;
@@ -201,7 +201,7 @@ li{
 #main2{
   display: none;
   background-image: url(./SRC/city\ 3.webp);
-  height: 100%;
+  height: auto;
   width: 100%;
 } 
 
@@ -218,6 +218,6 @@ li{
 }
 
 table{
-  background-color: pink;
-  width: 100%;
+  height: auto;
+  width: auto;
 }

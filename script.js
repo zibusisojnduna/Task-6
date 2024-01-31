@@ -1,8 +1,7 @@
 setTimeout(function(){
     // const main1 = document.getElementById("main1")
     // main1.style.display = "none"
-    document.getElementById("main1").style.display = "none"
-    document.getElementById("main2").style.display = "block"
+   
 }, 3000)
 
 const settings = {
@@ -17,11 +16,17 @@ const settings = {
 };
 
 $.ajax(settings).done(function (response) {
+	document.getElementById("main1").style.display = "none"
+    document.getElementById("main2").style.display = "block"
+	if(response){
+		console.log("Done")
+	}
 	let artist = response.albums[0].artists[0].name
-	$("#top").text(artist)
-
-	//let album = response.albums[1].
+	$("#artist").text(artist)
+	$("")
 	
+	//let album = response.albums[1].
+	console.log(response.albums)
 	
 	
 	console.log(response);
