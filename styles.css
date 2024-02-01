@@ -173,8 +173,9 @@ body{
   overflow: hidden;
   background-color: rgba(128, 128, 128, 0.281);
   border-radius: 10px;
-  height:115px;
+  height:auto;
   text-align: center;
+  display: flex;
 }
 
 li{
@@ -191,10 +192,10 @@ li{
 
 .tracks{
   height: auto;
-  width: 55vw;
+  width: 40vw;
   background-color:rgba(255, 166, 0, 0.178);
   border-radius: 20px;
-  margin-left: 40%;
+  margin-left: 60%;
   margin-top: -40%;
 }
                 
@@ -209,15 +210,23 @@ li{
   text-align: center;
 }
 
-.TrackName{
-  text-align: left;
-}
-
-.Length{
-  text-align: right;
-}
 
 table{
   height: auto;
   width: auto;
+}
+
+.eminem{
+  height: 200px;
+  width: 400px;
+  margin: auto;
+}
+
+#track1{
+  text-align: left;
+}
+
+#track2{
+  text-align:right;
+  
 }
