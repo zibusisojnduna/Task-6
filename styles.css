@@ -211,9 +211,11 @@ li{
 }
 
 
-table{
+table, th, td{
   height: auto;
-  width: auto;
+  width: 600px;
+  border: 2px solid white;
+  font-size:small;
 }
 
 .eminem{
@@ -226,7 +228,3 @@ table{
   text-align: left;
 }
 
-#track2{
-  text-align:right;
-  
-}
